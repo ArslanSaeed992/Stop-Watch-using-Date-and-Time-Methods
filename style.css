@@ -1,0 +1,37 @@
+body{
+    background-color:#00b6ff;
+    color:white;
+}
+
+#stopwatch{
+    font-size: 100px;
+    position:absolute;
+    top:45%;
+    left:49%;
+    transform:translate(-50%,-50%);
+    display: flex;
+    flex: wrap;
+}
+
+button{
+    width:100px;
+    background-color: #ffbb00;
+    height:50px;
+    border:2px solid #202020;
+    border-radius: #202020;
+    cursor:pointer;
+    outline:none;
+}
+
+#buttons{
+    position:absolute;
+    top:60%;
+    left:48.4%;
+    transform:translate(-51.6%,-45%);
+}
+
+#buttons li{
+    display:inline;
+    padding:30px;
+
+}
